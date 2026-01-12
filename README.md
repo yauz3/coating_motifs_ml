@@ -5,7 +5,7 @@ This repository provides the full **machine learning pipeline**, **feature engin
 
 > **Data-Driven Prediction of Hardness and Layer Behavior in YbSi–Mullite–Si Environmental Barriers**  
 > Emre Bal, Muhammet Karabas, Sadettin Y. Ugurlu  
-> *Submitted / under review / accepted in an ACS journal*
+> *Submitted in an ACS journal*
 
 The codebase enables **reproducible motif-aware hardness prediction**, **through-thickness profiling**, and **layer-resolved analysis** for multilayer and functionally graded environmental barrier coatings (EBCs).
 
