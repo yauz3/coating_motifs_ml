@@ -1,11 +1,3 @@
-Aşağıda, **ACS makalesiyle birebir uyumlu**, akademik olarak temiz, dergi/etik kurallara uygun ve GitHub için **doğrudan kullanılabilir** kapsamlı bir **`README.md`** taslağı veriyorum.
-Metin; **kod–makale ilişkisini**, **veri erişim kısıtlarını (copyright)**, **kurulum**, **çalıştırma**, **tekrarlanabilirlik** ve **atıf** konularını net biçimde kapsar.
-
-Bunu **aynen kopyalayıp** repoya `README.md` olarak koyabilirsin.
-
----
-
-````markdown
 # Coating Motifs ML  
 **Motif-aware machine learning for hardness prediction in multilayer YbSi–Mullite–Si environmental barrier coatings**
 
@@ -81,7 +73,7 @@ When requesting data, please briefly describe:
 ```bash
 conda create -n coating_ml python=3.10 -y
 conda activate coating_ml
-````
+```
 
 ### 2️⃣ Install required packages
 
@@ -221,4 +213,3 @@ Akdeniz University – Materials Science & Engineering
 📧 [syavuzugurlu@akdeniz.edu.tr](mailto:syavuzugurlu@akdeniz.edu.tr)
 
 ```
-
