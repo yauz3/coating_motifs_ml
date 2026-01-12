@@ -73,3 +73,150 @@ When requesting data, please briefly describe:
 ```bash
 conda create -n coating_ml python=3.10 -y
 conda activate coating_ml
+
+2️⃣ Install required packages
+pip install numpy pandas scipy scikit-learn
+pip install xgboost lightgbm catboost
+pip install shap matplotlib seaborn
+pip install networkx tqdm joblib
+
+
+Tested with Python ≥ 3.9.
+GPU is not required.
+
+🧪 Pipeline Overview
+
+The typical workflow is:
+
+Raw indentation tables
+
+Layer-wise concatenation → continuous through-thickness coordinate
+
+Parsing of categorical layer labels into:
+
+ybsi_pct
+
+mullite_pct
+
+si_pct
+
+Synthetic feature construction:
+
+Device-signal transforms
+
+Depth coupling
+
+Composition–mechanics interactions
+
+Hybrid template deviations
+
+Feature selection (ANOVA F-test, training-only)
+
+Model training (Motif E)
+
+Evaluation on unseen motifs (A–D)
+
+Post-processing:
+
+Neighborhood smoothing
+
+Layer-mean aggregation
+
+Interpretation:
+
+SHAP
+
+Clustering
+
+Feature networks
+
+▶️ Running the Code
+
+Note: You must first place the experimental CSV files (obtained via request) into the expected data directory.
+
+Example execution order:
+
+python 1_preprocess_and_concat.py
+python 2_feature_engineering.py
+python 3_feature_selection_anova.py
+python 4_train_models.py
+python 5_evaluate_cross_motif.py
+python 6_shap_analysis.py
+python 7_feature_clustering.py
+
+
+Script names may vary depending on the exact analysis stage; see inline documentation in each file.
+
+📈 Outputs
+
+The pipeline produces:
+
+Depth-wise hardness predictions
+
+Smoothed hardness profiles
+
+Layer-mean hardness predictions
+
+Performance metrics:
+
+R²
+
+MAE
+
+SHAP importance plots
+
+Feature dendrograms
+
+Feature correlation networks
+
+CSV summaries for publication figures
+
+📌 Reproducibility Notes
+
+Feature selection is fit only on the training motif to prevent leakage
+
+Identical feature sets are applied to all test motifs
+
+Ensemble models use fixed equal weights
+
+No hyperparameter tuning is performed on test motifs
+
+🧠 Intended Use
+
+This repository is intended for:
+
+Academic research
+
+Methodological comparison
+
+Extension to other multilayer / graded ceramic systems
+
+Educational purposes in materials informatics
+
+❌ Not intended for proprietary or commercial use without permission.
+
+📝 Citation
+
+If you use this code, please cite:
+
+@article{Bal2025CoatingMotifsML,
+  title   = {Data-Driven Prediction of Hardness and Layer Behavior in YbSi–Mullite–Si Environmental Barriers},
+  author  = {Bal, Emre and Karabas, Muhammet and Ugurlu, Sadettin Y.},
+  journal = {ACS Journal (under review)},
+  year    = {2025}
+}
+
+📄 License
+
+This repository is released for academic use only.
+
+All experimental data remain the property of the original authors and institutions.
+
+📬 Contact
+
+For questions, collaboration, or extensions:
+
+Sadettin Y. Ugurlu
+Akdeniz University – Materials Science & Engineering
+📧 syavuzugurlu@akdeniz.edu.tr
+
