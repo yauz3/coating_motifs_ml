@@ -1,0 +1,60 @@
+Displacement nm
+Harmonic Contact Stiffness
+Normalized Displacement Into Surface
+Displacement nm__sq
+Normalized Displacement Into Surface__sq
+Displacement nm__x__Harmonic Contact Stiffness
+Harmonic Contact Stiffness__x__Normalized Displacement Into Surface
+Displacement nm__x__Normalized Displacement Into Surface
+yb__Displacement nm
+yb__Harmonic Contact Stiffness
+yb__Normalized Displacement Into Surface
+DIFF_Displacement nm_yb
+DIFF_Displacement nm_mu
+DIFF_Displacement nm_si
+yb_DIFF_Displacement nm
+DIFF_Harmonic Contact Stiffness_yb
+DIFF_Harmonic Contact Stiffness_mu
+DIFF_Harmonic Contact Stiffness_si
+yb_DIFF_Harmonic Contact Stiffness
+DIFF_Normalized Displacement Into Surface_yb
+DIFF_Normalized Displacement Into Surface_mu
+DIFF_Normalized Displacement Into Surface_si
+yb_DIFF_Normalized Displacement Into Surface
+Displacement nm__x__ybds_i_pct
+Displacement nm__x__purity_max
+Displacement nm__x__Displacement nm__log
+Displacement nm__x__Harmonic Contact Stiffness__log
+Displacement nm__x__Normalized Displacement Into Surface__log
+Displacement nm__x__HYB_Displacement nm
+Displacement nm__x__DIFF_Displacement nm_yb
+Displacement nm__x__DIFF_Displacement nm_mu
+Displacement nm__x__DIFF_Displacement nm_si
+Displacement nm__x__HYB_Harmonic Contact Stiffness
+Displacement nm__x__HYB_Normalized Displacement Into Surface
+Displacement nm__x__DIFF_Normalized Displacement Into Surface_yb
+Displacement nm__x__DIFF_Normalized Displacement Into Surface_mu
+Displacement nm__x__DIFF_Normalized Displacement Into Surface_si
+Harmonic Contact Stiffness__x__ybds_i_pct
+Harmonic Contact Stiffness__x__purity_max
+Harmonic Contact Stiffness__x__Displacement nm__log
+Harmonic Contact Stiffness__x__Harmonic Contact Stiffness__log
+Harmonic Contact Stiffness__x__Normalized Displacement Into Surface__log
+Harmonic Contact Stiffness__x__HYB_Displacement nm
+Harmonic Contact Stiffness__x__HYB_Harmonic Contact Stiffness
+Harmonic Contact Stiffness__x__HYB_Normalized Displacement Into Surface
+Normalized Displacement Into Surface__x__ybds_i_pct
+Normalized Displacement Into Surface__x__purity_max
+Normalized Displacement Into Surface__x__Displacement nm__log
+Normalized Displacement Into Surface__x__Harmonic Contact Stiffness__log
+Normalized Displacement Into Surface__x__Normalized Displacement Into Surface__log
+Normalized Displacement Into Surface__x__HYB_Displacement nm
+Normalized Displacement Into Surface__x__DIFF_Displacement nm_yb
+Normalized Displacement Into Surface__x__DIFF_Displacement nm_mu
+Normalized Displacement Into Surface__x__DIFF_Displacement nm_si
+Normalized Displacement Into Surface__x__HYB_Harmonic Contact Stiffness
+Normalized Displacement Into Surface__x__HYB_Normalized Displacement Into Surface
+Normalized Displacement Into Surface__x__DIFF_Normalized Displacement Into Surface_yb
+Normalized Displacement Into Surface__x__DIFF_Normalized Displacement Into Surface_mu
+Normalized Displacement Into Surface__x__DIFF_Normalized Displacement Into Surface_si
+Derinlik (µm)__x__Displacement nm__x__yb_sq
