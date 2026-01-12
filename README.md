@@ -79,7 +79,7 @@ pip install numpy pandas scipy scikit-learn
 pip install xgboost lightgbm catboost
 pip install shap matplotlib seaborn
 pip install networkx tqdm joblib
-
+```
 
 Tested with Python ≥ 3.9.
 GPU is not required.
