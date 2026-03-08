@@ -189,7 +189,7 @@ If you use this code, please cite:
 @article{Bal2025CoatingMotifsML,
   title   = {Data-Driven Prediction of Hardness and Layer Behavior in YbSi–Mullite–Si Environmental Barriers},
   author  = {Bal, Emre and Karabas, Muhammet and Ugurlu, Sadettin Y.},
-  journal = {ACS Journal (under review)},
+  journal = {},
   year    = {2025}
 }
 ```
