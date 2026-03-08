@@ -190,7 +190,7 @@ If you use this code, please cite:
   title   = {Data-Driven Prediction of Hardness and Layer Behavior in YbSi–Mullite–Si Environmental Barriers},
   author  = {Bal, Emre and Karabas, Muhammet and Ugurlu, Sadettin Y.},
   journal = {},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
